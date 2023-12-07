@@ -27,7 +27,7 @@
 
 ### userId가 title인 영화를 볼 확률
 
-<span style="color: #2D3748; background-color:#fff5b1;"> Log Loss 값: 0.3807 </span>
+<span style="color: #2D3748; background-color:Y;"> Log Loss 값: 0.3807 </span>
 > 로그 손실은 분류 문제에서 모델의 성능을 측정하는 지표로 값이 낮을수록 좋은 성능을 나타냄.
 
 <span style="color: #2D3748; background-color:#fff5b1;"> AUC 값: 0.8726 </span>
