@@ -7,12 +7,12 @@
 
 ***
 
-### 이미지 특징 추출 (FeatureExtractor.py):
+### 이미지 특징 추출 (FeatureExtractor.py)
 > VGG16 모델을 사용하여 이미지의 특징을 추출하는 클래스 FeatureExtractor를 정의. 해당 클래스는 이미 학습된 가중치('imagenet')를 사용하며, 모델의 'fc1' 레이어에서 특징을 추출함. extract 메소드는 입력된 이미지를 전처리하고, VGG16 모델을 통해 특징을 추출한 후 정규화 진행
 
-### 이미지 처리 및 특징 저장 (ImageProcessing.py):
+### 이미지 처리 및 특징 저장 (ImageProcessing.py)
 > 주어진 디렉토리의 이미지들에 대한 처리 및 특징 추출을 수행. process_image 함수는 FeatureExtractor 클래스를 활용해 각 이미지의 특징을 추출하고, 이를 .npy 형식으로 저장 후 추출된 특징과 이미지 경로반환
 
-### 이미지 유사도 계산 (similarity.py):
+### 이미지 유사도 계산 (similarity.py)
 > 대상 이미지와 다른 이미지 간의 유사도를 계산하는 함수 calculate_similarity를 정의. 먼저 process_image 함수를 사용해 디렉토리 내의 이미지 특징을 추출한 후,다른 이미지들의 특징과 비교하여 유사도(유클리드 거리)를 계산하고, 가장 유사도가 낮은 이미지들을 선택하여 반환
 
