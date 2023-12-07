@@ -16,4 +16,4 @@
 ### 이미지 유사도 계산 (similarity.py)
 > 대상 이미지와 다른 이미지 간의 유사도를 계산하는 함수 calculate_similarity를 정의. 먼저 process_image 함수를 사용해 디렉토리 내의 이미지 특징을 추출한 후,다른 이미지들의 특징과 비교하여 유사도(유클리드 거리)를 계산하고, 가장 유사도가 낮은 이미지들을 선택하여 반환
 
-![Uploading output.png…]()
+![output](https://github.com/hariqueen/ML_Practice/assets/130454750/eb85eb22-5986-408c-a5e0-750d10e32116)
