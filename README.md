@@ -1,8 +1,7 @@
 # 영화 추천 모델 구현
 
 <pre><code>DeepFM 라이브러리를 이용하여 영화 추천 모델 만들기</code></pre>
-
-
+![Python 3.10.13](https://img.shields.io/badge/python-3.13.7-blue.svg)
 |column name|설명|
 |---	|---	|
 |userId|사용자ID (총 1000명)|
