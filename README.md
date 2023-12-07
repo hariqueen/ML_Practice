@@ -5,7 +5,7 @@
 ### userId가 title인 영화를 볼 확률
 |column name|설명  |
 |---	|---	|
-|   	|   	|
+|userId|사용자ID (총 1000명)|
 |   	|   	|
 |   	|   	|
 
