@@ -25,6 +25,9 @@
 
 > 훈련된 모델을 사용하여 테스트 데이터에 대한 예측을 수행하고, 로그 손실(LogLoss)과 AUC를 계산하여 모델의 성능을 평가(predict, log_loss, roc_auc_score). 이후 예측 결과를 movie_recommendations.csv 파일에 저장함 (to_csv).
 
+***
+
+
 ### userId가 title인 영화를 볼 확률
 
 <span style="color:orange"> Log Loss 값: 0.3807 </span>
