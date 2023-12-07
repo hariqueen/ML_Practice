@@ -16,11 +16,11 @@
 
 > 해당 모듈은 데이터를 불러오고 (pd.read_csv), 범주형 특성(userId, title, genres, tag)에 대해 결측값을 '-1'로 채우며 (fillna('-1')), 라벨 인코딩 수행. 라벨 인코딩은 범주형 데이터를 모델이 이해할 수 있는 수치형 데이터로 변환하는 과정임
 
-모델 훈련 (model_training.py)
+### 모델 훈련 (model_training.py)
 
 > 해당 모듈에서는 DeepFM 모델의 특성 컬럼을 정의하고, 데이터를 훈련 세트와 테스트 세트로 분할 (train_test_split). DeepFM 모델은 선형 특성과 DNN 특성을 결합한 구조로, 이진 분류 작업을 수행하기 위해 컴파일되고 훈련 됨 (DeepFM, compile, fit).
 
-모델 평가 및 결과 저장 (model_evaluation.py)
+### 모델 평가 및 결과 저장 (model_evaluation.py)
 
 > 훈련된 모델을 사용하여 테스트 데이터에 대한 예측을 수행하고, 로그 손실(LogLoss)과 AUC를 계산하여 모델의 성능을 평가(predict, log_loss, roc_auc_score). 이후 예측 결과를 movie_recommendations.csv 파일에 저장함 (to_csv).
 
