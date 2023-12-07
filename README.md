@@ -11,6 +11,7 @@
 > VGG16 모델을 사용하여 이미지의 특징을 추출하는 클래스 FeatureExtractor를 정의. 해당 클래스는 이미 학습된 가중치('imagenet')를 사용하며, 모델의 'fc1' 레이어에서 특징을 추출함. extract 메소드는 입력된 이미지를 전처리하고, VGG16 모델을 통해 특징을 추출한 후 정규화 진행
 
 <img width="845" alt="스크린샷 2023-12-07 오후 4 15 31" src="https://github.com/hariqueen/ML_Practice/assets/130454750/d0bb5591-ff30-476d-87ae-0da9ac5de896">
+
 출처 - https://neurohive.io/en/popular-networks/vgg16/
 
 ### 이미지 처리 및 특징 저장 (ImageProcessing.py)
